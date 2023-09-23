@@ -21,9 +21,10 @@ import {MatDividerModule} from "@angular/material/divider";
 import { HomeComponent } from './public/pages/home/home.component';
 import { AboutComponent } from './public/pages/about/about.component';
 import { PageNotFoundComponent } from './public/pages/page-not-found/page-not-found.component';
+import { StudentFormComponent } from './learning/components/student-form/student-form.component';
 
 @NgModule({
-  declarations: [AppComponent, StudentsComponent, HomeComponent, AboutComponent, PageNotFoundComponent],
+  declarations: [AppComponent, StudentsComponent, HomeComponent, AboutComponent, PageNotFoundComponent, StudentFormComponent],
   imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule, HttpClientModule, FormsModule, ReactiveFormsModule, MatTableModule, MatPaginatorModule, MatInputModule, MatButtonModule, MatFormFieldModule, MatToolbarModule, MatIconModule, MatCardModule, MatGridListModule, MatDividerModule],
   providers: [StudentsService],
   bootstrap: [AppComponent]
