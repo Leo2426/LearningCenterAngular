@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "upc202302si729ws51lcav": {
+      "hosting": {
+        "learning-center": [
+          "upc202302si729ws51lcav"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "upc202302si729ws51lcav"
+  }
+}
